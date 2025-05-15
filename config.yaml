@@ -1,0 +1,10 @@
+geyser_url: "https://grpc.ny.shyft.to"
+geyser_auth_token: ""
+# Использование RPC для devnet (тестовая сеть) вместо mainnet
+rpc_url: "https://api.devnet.solana.com"
+# Путь к keypair в текущей директории
+sender_keypair_path: "sender_keypair.json"
+# Тестовый адрес получателя
+recipient_address: "Hzd38D5pzV8a9qdqiGLJBdStgx7KaPf5AGHL4QspefsK"
+# Минимальная сумма для тестирования (чтобы не тратить много SOL)
+amount_sol: 0.000001  # 0.000001 SOL = 1000 lamports
